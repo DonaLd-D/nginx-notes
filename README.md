@@ -60,7 +60,8 @@ nginx使用指南
 
 5 搭建静态服务器
 
-    scp -r 文件目录 root@your ip:/usr/share/nginx/web/ //上传静态资源至服务器某个目录，然后在nginx.conf引入的default.conf里配置上传的静态页面
+    scp -r 文件目录 root@your ip:/usr/share/nginx/web/ //上传静态资源至服务器某个目录，然后在nginx.conf
+    引入的default.conf里配置上传的静态页面
     
 
 
