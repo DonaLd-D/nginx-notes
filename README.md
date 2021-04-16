@@ -1,4 +1,4 @@
-nginx使用指南
+nginx使用笔记
 
 1 安装nginx
 
