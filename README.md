@@ -1,6 +1,6 @@
-nginx使用笔记
+# nginx使用笔记
 
-1 安装nginx
+> ## 1 安装nginx
 
     1 ssh root@your ip //连接云服务器
     
@@ -14,7 +14,7 @@ nginx使用笔记
     
     6 nginx -v //查看nginx的版本
 
-2 nginx常用命令
+> ## 2 nginx常用命令
 
     1 /usr/sbin/nginx //启动nginx
     
@@ -38,7 +38,7 @@ nginx使用笔记
     
     11 whereis nginx //查看nginx在哪个目录
 
-3 验证是否启动nginx
+> ## 3 验证是否启动nginx
 
     1 /usr/sbin/nginx
     
@@ -46,7 +46,7 @@ nginx使用笔记
     
     3 your ip:80 //访问网站
 
-4 配置文件
+> ## 4 配置文件
 
     1 语句以;结尾
     
@@ -58,7 +58,7 @@ nginx使用笔记
     
     5 用$表示变量
 
-5 搭建静态服务器
+> ## 5 搭建静态服务器
 
     scp -r 文件目录 root@your ip:/usr/share/nginx/web/ //上传静态资源至服务器某个目录，然后在nginx.conf
     引入的default.conf里配置上传的静态页面
